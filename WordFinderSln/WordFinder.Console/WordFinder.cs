@@ -71,7 +71,7 @@
                 return;
             }
 
-            System.Console.WriteLine(currentWord);
+            //System.Console.WriteLine(currentWord);
 
             if (_uniqueWords.Contains(currentWord))
             {
