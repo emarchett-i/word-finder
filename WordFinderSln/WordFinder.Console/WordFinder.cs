@@ -9,7 +9,7 @@
         {
             string[] matrixArray = matrix.ToArray();
 
-            if (matrix == null || matrix.Count() == 0 || matrix.Count() > 64 || matrix.Any(row => row.Length != matrix.Count()))
+            if (matrix == null || !matrix.Any() || matrix.Count() > 64 || matrix.Any(row => row.Length != matrix.Count()))
             {
                 throw new ArgumentException("Invalid matrix");
             }
