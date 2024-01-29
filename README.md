@@ -8,7 +8,7 @@ This application is to solve the Word Finder challenge (please see the Qu Develo
 Solution:
 The solution consists on having a class 'WordFinder" with the responsibility of finding the given words on a given square matrix (64x64 or smaller)
 
-The WordFinder class uses recursion to iterate over the cells to find the words in both directions (Horizontal and Vertical).
+The WordFinder class uses recursion to iterate over the cells to find the words in both directions (Horizontal and Vertical). Considering every cell as a starting point, we analyze if the words that are being formed with it as a starting point in both directions matches the words that we try to find; for performance improvement we only consider the cells that starts with any of the words we are looking for.
 
 Tests cases provided via UnitTests
 - Test for the standard case provided by the challenge via PDF.
