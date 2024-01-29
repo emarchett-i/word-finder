@@ -1,5 +1,11 @@
 # word-finder
 
+This is a Console Application that uses .NET 8.
+
+Problem: 
+This application is to solve the Word Finder challenge (please see the Qu Developer Challenge-Word Finder.pdf file in this project)
+
+Solution:
 The solution consists on having a class 'WordFinder" with the responsibility of finding the given words on a given square matrix (64x64 or smaller)
 
 The WordFinder class uses recursion to iterate over the cells to find the words in both directions (Horizontal and Vertical).
